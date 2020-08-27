@@ -15,7 +15,6 @@
 
 	$email = isset($_POST["loginEmail"]) ? $_POST["loginEmail"] : false;
 	$pass = isset($_POST["loginPass"]) ? $_POST["loginPass"] : false;
-	$pic = isset($_POST["picToUpload"]) ? $_POST["picToUpload"] : false;	
 	// if email and/or pass POST values are set, set the variables to those values, otherwise make them false
 ?>
 
